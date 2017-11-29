@@ -5,12 +5,22 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Rectangle rectangle=new Rectangle();
+        Rectangle rectangle1=new Rectangle();
         Rectangle rectangle2 = new Rectangle (10.2, 10, "kék");
 
         System.out.println("length: " + rectangle2.getLength());
         System.out.println("width: " + rectangle2.getWidth());
         System.out.println("color: " + rectangle2.getColor());
+
+       rectangle1.setLength(2.3);
+       rectangle1.setWidth(10);
+       rectangle1.setColor("zöld");
+
+
+       rectangle1.print();
+
+
+
 
 	/*int number=0;
         Scanner scanner= new Scanner(System.in);
@@ -42,4 +52,5 @@ System.out.println(Math.sum(5,4));
         System.out.println(Math.dividing(5,4));
 
     }
+
 }

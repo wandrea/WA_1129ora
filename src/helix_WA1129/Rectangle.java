@@ -1,8 +1,5 @@
 package helix_WA1129;
 
-/**
- * Created by java1 on 2017.11.29..
- */
 public class Rectangle {
     private double length;
     private double width;
@@ -38,6 +35,9 @@ public class Rectangle {
     }
     public String getColor (){
         return color;
+    }
+    public void print() {
+        System.out.println("Color: " + color  + "Width: " + width  + "Length: " + length );
     }
 }
 
